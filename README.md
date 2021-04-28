@@ -7,3 +7,12 @@ Sistema de gerenciamento de usuários que efetua o cadastro no bando de dados e 
 - Bootstrap
 - PHP
 - MySql
+
+## Criar Tabela no Banco de Dados
+```
+CREATE TABLE tb_usuarios(
+    usuario VARCHAR(20),
+    senha VARCHAR(8),
+    administrador(3)
+);
+```

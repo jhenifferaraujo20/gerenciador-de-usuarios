@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Usuários</title>
     <link rel="stylesheet" href="bootstrap-5/bootstrap.min.css">
+    <link rel="sstylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container text-center">
