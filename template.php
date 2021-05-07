@@ -16,11 +16,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <label for="usuario">usuário</label><br>
-                    <input type="text" name="usuario" id="usuario" maxlenght="20" required>
+                    <input type="text" name="usuario" id="usuario" maxlength="20" required>
                 </div>
                 <div class="col-md-12">
                     <label for="senha">senha</label><br>
-                    <input type="password" name="senha" id="senha" maxlenght="8" required>
+                    <input type="password" name="senha" id="senha" maxlength="8" required>
                 </div>
                 <div class="col-md-12">
                     <input type="checkbox" name="administrador" id="administrador" value="sim">
