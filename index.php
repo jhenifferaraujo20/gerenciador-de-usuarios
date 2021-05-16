@@ -40,7 +40,7 @@
         </form>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 table-responsive">
         <table class="table table-bordered">
             <thead>
                 <tr>
