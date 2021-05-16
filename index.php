@@ -66,7 +66,8 @@
                         <td><?php echo $user['id']; ?></td>
                         <td><?php echo $user['usuario']; ?></td>
                         <td><?php echo $user['administrador']; ?></td>
-                        <?php echo "<td><a href='excluir.php?id={$user['id']}' class='btn btn-danger'>Excluir</a></td>"; ?>
+                        <?php echo "<td><a href='alterar-formulario.php?id={$user['id']}' class='btn btn-success'>Alterar</a> "; ?>
+                        <?php echo "<a href='excluir.php?id={$user['id']}' class='btn btn-danger'>Excluir</a></td>"; ?>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
