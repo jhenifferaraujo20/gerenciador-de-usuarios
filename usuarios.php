@@ -1,17 +1,17 @@
 <?php 
-if(isset($_GET['usuario']) && $_GET['usuario'] != ''){
+if(isset($_POST['usuario']) && $_POST['usuario'] != ''){
     $user = [];
 
-    $user['usuario'] = $_GET['usuario'];
+    $user['usuario'] = $_POST['usuario'];
 
-    if(isset($_GET['senha'])){
-        $user['senha'] = $_GET['senha'];
+    if(isset($_POST['senha'])){
+        $user['senha'] = $_POST['senha'];
     }else{
         $user['senha'] = '';
     }
 
-    if(isset($_GET['administrador'])){
-        $user['administrador'] = $_GET['administrador'];
+    if(isset($_POST['administrador'])){
+        $user['administrador'] = $_POST['administrador'];
     }else{
         $user['administrador'] = 'não';
     }
@@ -30,5 +30,5 @@ if(isset($user)){
     mysqli_query($conexao, $sqlInserir);
 }
 
-include "template.php";
+include "index.php";
 ?>
